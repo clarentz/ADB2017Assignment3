@@ -5,7 +5,7 @@ use myDb
     ARTIST: "Bonnie Tyler",
     COUNTRY: "UK",
     COMPANY: "CBS Records",
-		PRICE: 9.90,
-		YEAR: 1988
+    PRICE: 9.90,
+    YEAR: 1988
   }
 })
