@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE AbsoluteMove [
+  <!ELEMENT AbsoluteMove (ProfileToken, Position)>
+  <!ELEMENT ProfileToken (tring)>
+  <!ELEMENT Position (PanTilt, Zoom)>
+  <!ELEMENT PanTilt EMPTY>
+  <!ELEMENT Zoom EMPTY>
+  <!ATTLIST PanTilt x CDATA #REQUIRED>
+  <!ATTLIST PanTilt y CDATA #REQUIRED>
+  <!ATTLIST Zoom x CDATA #REQUIRED>
+]>
+<AbsoluteMove>
+  <ProfileToken>string</ProfileToken>
+  <Position>
+    <PanTilt x="20.0" y = "20.0" />
+    <Zoom x = "10.0" />
+  </Position>
+</AbsoluteMove>
