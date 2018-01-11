@@ -1,0 +1,9 @@
+8)
+This is the link to my photo:
+https://imgur.com/a/tFDbt
+
+9)
+>db.products.update({Discontinued:1},{$set:{UnitsInStock:5}}, { multi: true})
+
+10)
+>db.products.remove({Discontinued:1})
